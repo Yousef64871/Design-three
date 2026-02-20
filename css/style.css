@@ -1,0 +1,209 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* myFrame work */
+.special-heading {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: 1.5px;
+}
+.paragraps-span {
+    color: hsl(30, 10%, 34%);
+    font-weight: initial;
+    font-size: 16px;
+    font-family: "Outfit" , sans-serif;
+}
+.span-heading {
+    padding-right: 45px;
+}
+.span-two {
+    padding-right: 35px;
+}
+body {
+    font-family:"Young Serif",sans-serif;
+    background-color:hsl(30, 54%, 90%) ;
+}
+@media (min-width:767px)
+{
+   .design-content .container {
+        width: 750px;
+    }
+}
+@media (min-width:992px)
+{
+    .design-content .container {
+        width: 987px;
+    }
+}
+@media (min-width:1200px)
+{
+    .design-content .container {
+        width: 1187px;
+    }
+}
+.design-content {
+    padding-bottom:60px ;
+    padding-top: 60px;
+}
+.design-content .container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 20px;
+}
+.design-content .container  .image {
+    border-radius: 10px;
+}
+.design-content .container  .image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.design-content .container .content h1 {
+    font-size: 2.75rem;
+    font-weight: 900;
+    color: hsl(24, 5%, 18%);
+}
+.design-content .container .content  p {
+    line-height: 1.6em;
+    font-size: 16px;
+}
+.design-content .container .content .preparation-content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    
+}
+.design-content .container .content .preparation-content h4 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 800;
+}
+.design-content .container .content .preparation-content ul {
+    margin-left: -18px;
+    color:hsl(332, 51%, 32%) ;
+}
+.design-content .container .content .preparation-content ul li {
+    padding-left: .8rem;
+    margin-bottom: 20px;
+}
+.design-content .container .content .preparation-content ul li span:first-child {
+    font-weight:700 ;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit" , sans-serif;
+}
+.design-content .container .content .ingredients-content {
+    margin-top: 40px;
+}
+.design-content .container .content .ingredients-content ul {
+    margin-left: -18px;
+    color:hsl(14, 45%, 36%) ;
+}
+.design-content .container .content .ingredients-content ul  li {
+    padding-left: .8rem;
+    margin-bottom: 20px;
+}
+
+.design-content .container .content hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.design-content .container .content .instructions-content ul {
+    margin-left: -18px;
+    color:hsl(14, 45%, 36%) ;
+    list-style: number;
+    font-weight: 800;
+    font-family: "Outfit" , sans-serif;
+}
+.design-content .container .content .instructions-content ul li {
+    padding-left: .8rem;
+    margin-bottom: 20px;
+}
+.design-content .container .content .instructions-content ul li span:first-child {
+    font-weight:700 ;
+    font-family: "Outfit" ,sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+.design-content .container .content .nutrition-content .cont-table hr {
+    margin: initial;
+}
+/* .design-content .container .content .nutrition-content .cont-table p {
+    padding-left: 2em;
+}
+.design-content .container .content .nutrition-content .cont-table p span {
+    padding-left: 14.8em;
+    font-family: "Outfit" , sans-serif;
+} */
+
+/* .design-content .container .content .nutrition-content .cont-table table  {
+    margin-left: 2em;
+}
+.design-content .container .content .nutrition-content .cont-table table  tr td{
+    margin-right: 6em;
+}
+.design-content .container .content .nutrition-content .cont-table table .special-td {
+    padding-left: 15.5em;
+} */
+
+/* .design-content .container .content .nutrition-content .cont-table {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+} */
+.design-content .container .content .nutrition-content .cont-table h4 {
+    padding-left: 2em;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    align-items: center;
+}
+.design-content .container .content .nutrition-content .cont-table h4 span {
+    margin:0;
+}
+
+
+@media (max-width:766.5px) {
+    .design-content{
+        padding: 0;
+    }
+       .design-content .container {
+        width:100%;
+        border-radius: 0;
+        padding: 0;
+        min-height: 2000px;
+        
+    }
+    .design-content .container .content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .design-content .container  .image {
+        
+        border-radius: 0;
+    }
+    .design-content .container .image img {
+        
+        border-radius: 0;
+    }
+    .design-content .container .content h1 {
+    font-size: 2.0rem;
+    font-weight: 900;
+    color: hsl(24, 5%, 18%);
+    }
+    .design-content .container .content .nutrition-content .cont-table h4 span:first-child {
+        padding-right: 150px;
+    }
+    .design-content .container .content .nutrition-content .cont-table h4 span:nth-child(2) {
+        padding-right: 195px;
+    }
+    .design-content .container .content .nutrition-content .cont-table h4 span:nth-child(3) {
+        padding-right: 190px;
+    }
+    .design-content .container .content .nutrition-content .cont-table h4 span:last-child {
+        padding-right: 190px;
+    }
+}
